@@ -1,0 +1,265 @@
+ext{
+
+    android = [
+            applicationId            : "com.viterbi.learning",
+            compileSdkVersion: 30,
+            minSdkVersion    : 23,
+            targetSdkVersion : 30,
+            buildToolsVersion: "30.0.2",
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner",
+
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+
+    versions = [
+            XXPermissions                :"13.5",
+            junit           : "4.+",
+            extjunit        : "1.1.2",
+            espresso        :"3.3.0",
+            constraintlayout             : "2.0.4",
+            flycotablayout               : "3.0.0",
+            recyclerview                 : "1.2.0",
+            cardview                     : "1.0.0",
+            rxpermissions                : "0.12",
+            mmkv                         : "1.1.1",
+            PictureSelector              : "v2.5.8",
+            greendao                     : "3.3.0",
+            rxandroidaudio               : "1.7.0",
+            AudioProcessor               : "1.7.0",
+            eventbus                     : "3.2.0",
+
+            umasms                       : "1.4.1",
+            umcommon                     : "9.4.7",
+            umapm                        : "1.5.2",
+            umshareCore                  : "7.1.6",
+            umshareWx                    : "7.1.6",
+            umshareWxMta                 : "6.7.9",
+
+            gson                         : "2.8.8",
+            multidex                     : "2.0.1",
+            okhttp                       : "4.5.0",
+            okhttp_log_interceptor       : "3.9.0",
+//            rxjava                       : "2.2.14",
+//            rxandroid                    : "2.1.1",
+            //  rxlifecycle_android_lifecycle: "2.2.2",
+            //      retrofit2_rxjava2_adapter    : "1.0.0",
+            utilcodex                    : "1.31.0",
+            glide                        : "4.12.0",
+
+            retrofit                     : "2.9.0",
+
+            retrofitrxjava3              : "2.9.0",
+            retrofitConvertergson        : "2.9.0",
+
+            adapterrxjava2               : "2.3.0",
+            //   convertergson                : "2.5.0",
+            GSYVideoPlayer               : "8.1.1",
+            GreenDaoUpgradeHelper        : "2.2.1",
+            RxHttpUtils                  : "2.3.3",
+            pinyin4j                     : "2.5.0",
+            conscryptandroid             : "2.4.0",
+            jiaozivideoplayer            : "7.3.0",
+            aRouteApi                    : "1.5.1",
+            aRouteCompiler               : "1.5.1",
+//            retrofit2converterscalars    : "2.6.2",
+//            retrofit2convertergson       : "2.6.2",
+//            retrofit2converteradapter    : "2.6.2",
+            circleimageview              : "3.1.0",
+            rxlifecycleandroid           : "4.0.2",
+            MagicIndicator               : "1.6.0",
+            superTextView                : "2.4.2",
+            androidsupportv4             : "1.0.0",
+            corektx                      : "1.3.2",
+            googlematerial               : "1.2.1",
+            kotlin                       : "1.4.30",
+            livedataktx                  : "2.3.0",
+            lifecycleruntime             : "2.3.0",
+            viewmodelktx                 : "2.3.0",
+            kotlincoroutines             : "1.3.9",    //协程
+            //  bannerview                   : "2.1.0",
+            lifecycleextension           : "2.3.0",
+            leakcanary                   : "2.5",
+            smartrefresh                 : "2.0.1",
+            onekeylogin                  : '2.12.1.2',  //阿里云一键登录SDK 上传到了公司的maven私服
+            dueeekevideo                 : "3.2.6",
+
+            companyadutil                : "1.1.0@aar",   //公司封装的广告工具1.1.0版本动态设置广告网络下载弹窗
+            csjadlib                     : "3.8.0.3@aar",//穿山甲广告的sdk
+
+            hlbindingversion             : "1.1.2",
+            activityktxversion           : "1.2.2",
+            fragmentktxversion           : "1.3.0-beta02",
+            imgzoom                      : "2.3.0",
+            gpuimage                     : "2.0.4",
+            //鲁班压缩工具
+            lubancompress                : "1.1.8",
+            //陈宇明的adapter适配器
+            cymrecycleradapter           : "3.0.4",
+            //空祖家的对话框  仿ios等
+            kongzuedialog                : "3.2.4",
+            //提示等待对话框
+            promptdialog                 : "1.1.3",
+            //room数据库
+            room                         : "2.3.0",
+            roomprocessor                : "2.3.0",
+            viewpager2                   : "1.0.0",
+            koin                         : "3.0.1",
+
+//            butterknife                  : "10.2.3",
+//            butterknifeProcessor         : "10.2.3",
+
+            rxjava3                      : "3.1.2",
+            rxandroid3                   : "3.0.0",
+
+            rxlifecycle_android_lifecycle4: "4.0.2",
+
+            //底部导航tab
+            jptabbar                     : "1.4.0",
+            ucrop                        : "2.2.6",
+            aliyunlogin                  : "1.0.2@aar",  //新的阿里云一键登录 以前的只是有阿里云的sdk，这个是将一键登录模块都上传到maven库的
+            switchutils                  : "1.0.4@aar",   //开关工具类 提供给老项目使用
+
+            gdtadsdk                     : "4.373.1243",//广点通的sdk
+            gdtadutil                    : "1.0.0@aar",   //广点通广告工具 如果要使用 则需要依赖广点通的sdk
+
+            banner:"2.2.2",
+            swiperefreshlayout              : "1.0.0",
+            barlibrary                      : "2.3.0",//android 4.4以上沉浸式以及bar的管理 Created by gyf on 2017/05/09
+            appcompat                    :"1.3.0",
+            meterial                     :"1.4.0",
+            calendarview                 :"3.7.1",
+    ]
+
+
+    library = [
+            calendarview                 :"com.haibin:calendarview:${versions.calendarview}",
+            crashreport                  :"com.tencent.bugly:crashreport:latest.release",
+            material                     :"com.google.android.material:material:${versions.meterial}",
+            appcompat                    :"androidx.appcompat:appcompat:${versions.appcompat}",
+            XXPermissions                :"com.github.getActivity:XXPermissions:${versions.XXPermissions}",
+            barlibrary                   :"com.gyf.barlibrary:barlibrary:${versions.barlibrary}",
+            junit           : "junit:junit:${versions.junit}",
+            extjunit        : "androidx.test.ext:junit:${versions.extjunit}",
+            espresso        : "androidx.test.espresso:espresso-core:${versions.espresso}",
+            constraintlayout             : "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+            flycotablayout               : "com.flyco.tablayout:FlycoTabLayout_Lib:${versions.flycotablayout}",
+            recyclerview                 : "androidx.recyclerview:recyclerview:${versions.recyclerview}",
+            cardview                     : "androidx.cardview:cardview:${versions.cardview}",
+            rxpermissions                : "com.github.tbruyelle:rxpermissions:${versions.rxpermissions}",
+            mmkv                         : "com.tencent:mmkv-static:${versions.mmkv}",
+            PictureSelector              : "com.github.LuckSiege.PictureSelector:picture_library:${versions.PictureSelector}",
+            greendao                     : "org.greenrobot:greendao:${versions.greendao}",
+            rxandroidaudio               : "com.github.piasy:rxandroidaudio:${versions.rxandroidaudio}",
+            AudioProcessor               : "com.github.piasy:AudioProcessor:${versions.AudioProcessor}",
+            eventbus                     : "org.greenrobot:eventbus:${versions.eventbus}",
+
+            gson                         : "com.google.code.gson:gson:${versions.gson}",
+            multidex                     : "androidx.multidex:multidex:${versions.multidex}",
+            okhttp                       : "com.squareup.okhttp3:okhttp:${versions.okhttp}",
+            okhttp_log_interceptor       : "com.squareup.okhttp3:logging-interceptor:${versions.okhttp_log_interceptor}",
+            //  rxjava                       : "io.reactivex.rxjava2:rxjava:${versions.rxjava}",
+            //     rxandroid                    : "io.reactivex.rxjava2:rxandroid:${versions.rxandroid}",
+            //   rxlifecycle_android_lifecycle: "com.trello.rxlifecycle2:rxlifecycle-android-lifecycle:${versions.rxlifecycle_android_lifecycle}",
+            //  retrofit2_rxjava2_adapter    : "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:${versions.retrofit2_rxjava2_adapter}",
+            utilcodex                    : "com.blankj:utilcodex:${versions.utilcodex}",
+            glide                        : "com.github.bumptech.glide:glide:${versions.glide}",
+            glidecompiler                : "com.github.bumptech.glide:compiler:${versions.glide}",
+            retrofit                     : "com.squareup.retrofit2:retrofit:${versions.retrofit}",
+//            adapterrxjava2               : "com.squareup.retrofit2:adapter-rxjava2:${versions.adapterrxjava2}",
+//            convertergson                : "com.squareup.retrofit2:converter-gson:${versions.convertergson}",
+//
+            retrofitrxjava3              : "com.squareup.retrofit2:adapter-rxjava3:${versions.retrofitrxjava3}",
+            retrofitConvertergson        : "com.squareup.retrofit2:converter-gson:${versions.retrofitConvertergson}",
+
+            GSYVideoPlayer               : "com.shuyu:GSYVideoPlayer:${versions.GSYVideoPlayer}",
+            GreenDaoUpgradeHelper        : "com.github.yuweiguocn:GreenDaoUpgradeHelper:${versions.GreenDaoUpgradeHelper}",
+            RxHttpUtils                  : "com.github.lygttpod:RxHttpUtils:${versions.RxHttpUtils}",
+            pinyin4j                     : "com.belerweb:pinyin4j:${versions.pinyin4j}",
+            conscryptandroid             : "org.conscrypt:conscrypt-android:${versions.conscryptandroid}",
+            jiaozivideoplayer            : "cn.jzvd:jiaozivideoplayer:${versions.jiaozivideoplayer}",
+            wechatPay                    : "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+            aRouteApi                    : "com.alibaba:arouter-api:${versions.aRouteApi}",
+            aRouteCompiler               : "com.alibaba:arouter-compiler:${versions.aRouteCompiler}",
+//            retrofit2converterscalars    : "com.squareup.retrofit2:converter-scalars:${versions.retrofit2converterscalars}",
+//            retrofit2convertergson       : "com.squareup.retrofit2:converter-gson:${versions.retrofit2convertergson}",
+//            retrofit2converteradapter    : "com.squareup.retrofit2:adapter-rxjava2:${versions.retrofit2converteradapter}",
+            circleimageview              : "de.hdodenhof:circleimageview:${versions.circleimageview}",
+            rxlifecycleandroid           : "com.trello.rxlifecycle4:rxlifecycle-android:${versions.rxlifecycleandroid}",
+            rxlifecyclecomponents        : "com.trello.rxlifecycle4:rxlifecycle-components:${versions.rxlifecycleandroid}",
+            MagicIndicator               : "com.github.hackware1993:MagicIndicator:${versions.MagicIndicator}",
+            superTextView                : "com.github.lygttpod:SuperTextView:${versions.superTextView}",
+            androidsupportv4             : "androidx.legacy:legacy-support-v4:${versions.androidsupportv4}",
+
+            rxjava3                      : "io.reactivex.rxjava3:rxjava:${versions.rxjava3}",
+            rxandroid3                   : "io.reactivex.rxjava3:rxandroid:${versions.rxandroid3}",
+
+            corektx                      : "androidx.core:core-ktx:${versions.corektx}",
+            googlematerial               : "com.google.android.material:material:${versions.googlematerial}",
+            livedataktx                  : "androidx.lifecycle:lifecycle-livedata-ktx:${versions.livedataktx}",
+            lifecycleruntime             : "androidx.lifecycle:lifecycle-runtime-ktx:${versions.lifecycleruntime}",
+            lifecycleextension           : "androidx.lifecycle:lifecycle-extensions:${versions.lifecycleextension}",
+            viewmodelktx                 : "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.viewmodelktx}",
+            kotlincoroutines             : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.kotlincoroutines}",
+            kotlin                       : "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}",
+            //bannerview                   : "com.youth.banner:banner:${versions.bannerview}",
+            leakcanary                   : "com.squareup.leakcanary:leakcanary-android:${versions.leakcanary}",
+            smartrefreshCore             : "com.scwang.smart:refresh-layout-kernel:${versions.smartrefresh}",
+            smartrefreshHead             : "com.scwang.smart:refresh-header-classics:${versions.smartrefresh}",
+            companyadutil                : "com.aijianji.androidlib:adlib:${versions.companyadutil}",
+            onekeylogin                  : "com.aijianji.androidlib:onekeylogin:${versions.onekeylogin}",
+            dueeekevideo                 : "com.github.dueeeke.dkplayer:dkplayer-java:${versions.dueeekevideo}",
+            dueeekevideoui               : "com.github.dueeeke.dkplayer:dkplayer-ui:${versions.dueeekevideo}",
+            dueeekevideoijk              : "com.github.dueeeke.dkplayer:player-ijk:${versions.dueeekevideo}",
+            dueeekevideocache            : "com.github.dueeeke.dkplayer:videocache:${versions.dueeekevideo}",
+            //https://github.com/hi-dhl/Binding
+            hlbinding                    : "com.hi-dhl:binding:${versions.hlbindingversion}",
+            activityktx                  : "androidx.activity:activity-ktx:${versions.activityktxversion}",
+            fragmentktx                  : "androidx.fragment:fragment-ktx:${versions.fragmentktxversion}",
+            imgzoom                      : "it.sephiroth.android.library.imagezoom:imagezoom:$versions.imgzoom",
+            gpuimage                     : "jp.co.cyberagent.android:gpuimage:$versions.gpuimage",
+            csjadlib                     : "csj:csjlib:$versions.csjadlib",
+            //https://github.com/Curzibn/Luban
+            lubancompress                : "top.zibin:Luban:$versions.lubancompress",
+            //https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+            cymrecycleradapter           : "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.cymrecycleradapter",
+            //https://github.com/kongzue/DialogV3
+            kongzuedialog                : "com.kongzue.dialog_v3x:dialog:$versions.kongzuedialog",
+            //https://github.com/limxing/Android-PromptDialog
+            promptdialog                 : "com.github.limxing:Android-PromptDialog:$versions.promptdialog",
+
+//            butterknife                  : "com.jakewharton:butterknife:${versions.butterknife}",
+//            butterknifeProcessor         : "com.jakewharton:butterknife-compiler:${versions.butterknifeProcessor}",
+
+            roomktx                      : "androidx.room:room-ktx:$versions.room",
+            room                         : "androidx.room:room-runtime:$versions.room",
+            roomprocessor                : "androidx.room:room-compiler:$versions.room",
+            viewpager2                   : "androidx.viewpager2:viewpager2:$versions.viewpager2",
+            //https://github.com/InsertKoinIO/koin
+            koin                         : "io.insert-koin:koin-android:$versions.koin",
+            //https://github.com/peng8350/JPTabBar
+            jptabbar                     : "com.jpeng:JPTabBar:$versions.jptabbar",
+            //https://github.com/Yalantis/uCrop
+            ucrop                        : "com.github.yalantis:ucrop:$versions.ucrop",
+            aliyunlogin                  : "com.aijianji.androidlib:aliyunlogin:$versions.aliyunlogin",
+            switchutils                  : "com.aijianji.androidlib:switchutil:$versions.switchutils",
+
+            gdtadsdk                     : "com.qq.e.union:union:$versions.gdtadsdk",
+            gdtadutil                    : "com.aijianji.androidlib:gdtad:$versions.gdtadutil",
+
+            rxlifecycle_android_lifecycle4: "com.trello.rxlifecycle4:rxlifecycle-android-lifecycle:${versions.rxlifecycle_android_lifecycle4}",
+
+            umcommon                     : "com.umeng.umsdk:common:$versions.umcommon",
+            umasms                       : "com.umeng.umsdk:asms:$versions.umasms",
+            umapm                        : "com.umeng.umsdk:apm:$versions.umapm",
+            umshareCore                  : "com.umeng.umsdk:$versions.umshareCore",
+            umshareWx                    : "com.umeng.umsdk:$versions.umshareWx",
+            umshareWxMta                 : "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:$versions.umshareWxMta",
+
+
+            banner:"io.github.youth5201314:banner:${versions.banner}",
+            swiperefreshlayout             : "androidx.swiperefreshlayout:swiperefreshlayout:${versions.swiperefreshlayout}",
+    ]
+
+}
